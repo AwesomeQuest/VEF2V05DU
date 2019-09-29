@@ -1,0 +1,8 @@
+1.
+MVC og MV*, Model-View-Controller og Model-View-Wildcard, í vefþróun getur verið mjög bókstaflegt, sérstaklega í sambandi við e. framework einsog Angular eða React, vegna þess að þau beingera þessa hugmynd í síðu kóðanum sjálfum.
+MVC talar um það að aðskilja View, það sem notandin sér, Controller, það sem vinnur úr gögnum, aðalega sem koma frá notandanum eða aðal gagnagrunni síðunar, og Model, það sem heldur í sér allar reglur sem síðan fylgir og sendir í View það sem notandinn sér.
+MV* er alhæft nafn yfir mörg mismunandi e. framework sem nota ekki mikið af controller í sér. Með því að tölvur hafa orðið öflugari hefur minna þurft að vera af einstökum netþjónum sem taka inn gögn frá mörgum notendum, og í staðinn reiknað allt út á tölvu notandans, þetta getur verið gert á endalausa mismunandi hátta.
+Sama hvað maður kallar svona hugsun, ekkert af svona e. framework eru neitt nákvæmar um sig. Það er létt að sjá hvernig MVVM getur skarast í MVC og hinseigin, aðalega vegna þess að "Model" og "Controller" eru mjög ónákvæm orð, og geta sjálf skarast á milli.
+2.
+Í Angular, þessi hugsun er notuð sérlega mikið á beinbrotinn hátt. Í Angular er allt skypt í components, og hver component hefur sinn eigin Model-View-Controller setup með .html og .css skrá sem hagar sér eins og model og view, og .ts skrá sem hagar sér eins og controller.
+Hvert Angular app hefur marga components, og hver gerir, sýnir, eða geimir eitthvað sértakt. Þetta er svo allt sýnt í gegnum eina aðal .html skrá sem hefur sinn eigin controller.
